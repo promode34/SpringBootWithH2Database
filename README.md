@@ -10,3 +10,20 @@ transaction during a three month period, calculate the reward points earned for 
  http://localhost:8081/customers/rewards/{customerId}
  
 
+# Following are instructions to run project :
+
+1. Download ZIP file from below GitHub URL :
+    https://github.com/promode34/SpringBootWithH2Database 
+
+2. UNZIP project and import project as MAVEN project in STS or Intellij idea IDE.
+
+3. Right click on project and run as spring boot application.
+
+4. Once server tomcat server started then test below Rest API : 
+
+ http://localhost:8081/customers/rewards/{customerId}
+ 
+ Example :  http://localhost:8081/customers/rewards/100
+            http://localhost:8081/customers/rewards/101
+            http://localhost:8081/customers/rewards/102
+
